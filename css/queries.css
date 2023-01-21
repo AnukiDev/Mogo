@@ -1,0 +1,262 @@
+/***************************/
+/* BELOW 1344PX (smaller desktops) */
+/***************************/
+
+@media (max-width: 84em) {
+  header {
+    max-width: 100%;
+    height: 30vh;
+  }
+  .header-inner {
+    padding: 0 3.2em;
+  }
+
+  .device {
+    top: -4.5em;
+  }
+  .device--smaller {
+    bottom: -13%;
+  }
+
+  .gallery {
+    width: 100rem;
+    display: grid;
+
+    grid-template-columns: 24.8rem 24.8rem 24.8rem;
+    grid-template-rows: 20.1em 20.1em;
+  }
+
+  .gallery img {
+    max-width: 24.8rem;
+    justify-self: stretch;
+  }
+  .gallery div {
+    width: 24.8rem;
+    justify-self: stretch;
+  }
+}
+
+/***************************/
+/* BELOW 1200PX (Landscape Tablets) */
+/***************************/
+
+@media (max-width: 75em) {
+  .container {
+    max-width: 100rem;
+    padding: 3.2rem 3.2rem;
+  }
+
+  .section-about {
+    padding-top: 3.2rem;
+  }
+  .section-services,
+  .section-work {
+    padding: 0;
+  }
+  .heading-primary--header {
+    font-size: 6.2rem;
+  }
+  .heading-secondary--header {
+    font-size: 3rem;
+  }
+  .about-img img {
+    width: 30rem;
+  }
+
+  .slider {
+    max-width: 90rem;
+  }
+  .slider-line,
+  .slider-line--color {
+    width: 16rem;
+  }
+
+  .slider-group {
+    font-size: 1.6rem;
+  }
+
+  .device {
+    top: 7.5rem;
+    width: 35rem;
+    height: 43rem;
+  }
+  .device--smaller {
+    height: 35rem;
+    width: 25rem;
+    bottom: -13%;
+  }
+  .service-img-box img {
+    width: 45rem;
+  }
+  .service-text-box {
+    width: 45rem;
+    height: 30rem;
+  }
+  .scroll-text {
+    height: 15rem;
+    font-size: 1.4rem;
+  }
+
+  .scroll {
+    height: 11rem;
+  }
+
+  .service-box-header {
+    height: 4rem;
+  }
+  .service-box-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .team-img-box img {
+    width: 30rem;
+  }
+
+  .logos {
+    max-width: 100rem;
+    padding: 3.2rem 3.2rem;
+  }
+
+  .work-comment p {
+    font-size: 1.6rem;
+  }
+  .work-comment img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .section-comment {
+    padding: 0;
+  }
+  .testimonial {
+    margin: 0;
+    max-width: 150rem;
+    row-gap: 3.2rem;
+    column-gap: 3.2rem;
+  }
+
+  .testimonial-box {
+    width: 40rem;
+    font-size: 1.4rem;
+  }
+
+  .testimonial-box img {
+    width: 7rem;
+    height: 7rem;
+  }
+  .testimonial-text h3 {
+    font-size: 1.6rem;
+  }
+
+  .testimonial-comment {
+    font-size: 1.2rem;
+  }
+
+  .blog-box img,
+  .blog-img {
+    width: 28rem;
+  }
+
+  .blog-box {
+    max-width: 30rem;
+    gap: 1.2rem;
+  }
+
+  .blog-box h4 {
+    font-size: 1.6rem;
+  }
+  .blog-review {
+    display: flex;
+    width: 100rem;
+    justify-content: space-between;
+    padding: 0 3.2rem;
+  }
+
+  .copyright {
+    max-width: 100rem;
+    padding: 3.2rem 0 0 0;
+  }
+  .footer-blog {
+    padding: 0 2.4rem;
+  }
+}
+
+/***************************/
+/* BELOW 944px  (Tablets) */
+/***************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .slider {
+    width: 60rem;
+  }
+  .slider-line,
+  .slider-line--color {
+    width: 10rem;
+  }
+
+  .slider-group {
+    font-size: 1.2rem;
+  }
+
+  .device {
+    top: 22.6em;
+    width: 35rem;
+    height: 43rem;
+  }
+  .device--smaller {
+    height: 35rem;
+    width: 25rem;
+    bottom: -13%;
+  }
+
+  .numbers {
+    height: 17rem;
+  }
+
+  .service-img-box img {
+    width: 38rem;
+    height: 30rem;
+  }
+  .service-text-box {
+    width: 38rem;
+    height: 30rem;
+  }
+
+  .team-img-box img {
+    width: 25rem;
+  }
+
+  .logos img {
+    width: 13rem;
+  }
+
+  .blog-box img,
+  .blog-img {
+    width: 25rem;
+  }
+
+  .blog-box {
+    max-width: 25rem;
+    gap: 0.8rem;
+  }
+
+  .blog-box h4 {
+    font-size: 1.6rem;
+  }
+  .blog-review {
+    display: flex;
+    max-width: 95rem;
+    justify-content: space-between;
+  }
+}
+
+/***************************/
+/* BELOW 704px  ( Smaller Tablets) */
+/***************************/
+
+@media (max-width: 44em) {
+}
